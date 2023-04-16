@@ -1,0 +1,27 @@
+.page-list {
+  list-style: none;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.page-item {
+  button {
+    padding: 1rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 0.2rem;
+    border: none;
+    color: white;
+    background-color: #ff2625;
+    border-radius: 5px;
+  }
+}
+
+.active {
+  button {
+    background-color: #8e1313;
+  }
+}

@@ -1,0 +1,44 @@
+.exercise-card {
+  max-width: 400px;
+  height: 445px;
+  background: #fff;
+  border-top: 4px solid #ff2625;
+  border-bottom-left-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 10px;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+
+  img {
+    max-height: 80%;
+    object-fit: cover;
+  }
+
+  &__container {
+    display: flex;
+  }
+  button {
+    font-size: 1rem;
+    color: white;
+    border-radius: 24px;
+    padding: 0.2rem 0.8rem;
+    border: none;
+    margin-right: 0.5rem;
+    text-transform: capitalize;
+  }
+  &__btn-body {
+    background-color: #ffa9a9;
+  }
+  &__btn-target {
+    background-color: #fcc757;
+  }
+
+  p {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+}

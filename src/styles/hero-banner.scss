@@ -1,0 +1,49 @@
+.hero {
+  padding: 0rem 4rem;
+  position: relative;
+  margin-top: 212px;
+}
+
+.hero__heading {
+  color: #ff2625;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.hero__phrase {
+  font-size: 44px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 23px;
+}
+
+.hero__suggestion {
+  font-size: 22px;
+  line-height: 35px;
+  margin-bottom: 2rem;
+}
+
+.hero__btn {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  background-color: #ff2625;
+  border-radius: 5px;
+}
+
+.hero__hint {
+  font-weight: 600;
+  color: #ff2625;
+  opacity: 0.1;
+  font-size: 200px;
+}
+
+.hero__banner-img {
+  position: absolute;
+  right: 40px;
+  top: 0px;
+  max-width: 600px;
+  // height: 650px;
+  margin-top: -330px;
+}

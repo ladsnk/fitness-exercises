@@ -1,0 +1,15 @@
+.exercises {
+  padding: 4rem 4rem;
+  p {
+    font-size: 44px;
+    margin-bottom: 4rem;
+  }
+
+  .exercises__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7rem;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,26 @@
+.navbar {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 8rem;
+}
+
+.navbar__logo {
+  width: 48px;
+  height: 48px;
+  margin: 0 20px;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 40px;
+  font-family: "Alegreya", serif;
+  font-size: 24px;
+  color: #3a1212;
+  align-items: flex-end;
+}
+
+.navbar__home {
+  border-bottom: 3px solid #ff2625;
+}

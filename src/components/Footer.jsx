@@ -7,7 +7,7 @@ import Loader from "./Loader";
 const Footer = () => {
   return (
     <footer className="footer">
-      <img src="/Logo-1.png" alt="logo" />
+      <img src="./Logo-1.png" alt="logo" />
     </footer>
   );
 };

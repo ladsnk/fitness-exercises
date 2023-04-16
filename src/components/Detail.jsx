@@ -6,15 +6,15 @@ const Detail = ({ exerciseDetail }) => {
   const { bodyPart, gifUrl, name, target, equipment } = exerciseDetail;
   const extraDetail = [
     {
-      icon: "/body-part.png",
+      icon: "./body-part.png",
       name: bodyPart,
     },
     {
-      icon: "/target.png",
+      icon: "./target.png",
       name: target,
     },
     {
-      icon: "/equipment.png",
+      icon: "./equipment.png",
       name: equipment,
     },
   ];
